@@ -39,7 +39,8 @@ class App extends Component {
     ],
     cont: "",
     cont0: "",
-    cont1: ""
+    cont1: "",
+    isAdding: false
   };
   componentDidMount() {
     this.setState({ isLoading: true });
@@ -111,7 +112,7 @@ class App extends Component {
     this.setState({ pop: false, cont: "", cont0: "", cont1: "" });
   };
   addNewCont = (e, a, b) => {
-    this.setState({ isLoading: true });
+    this.setState({ isAdding: true });
     const newMail = {
       id: Date.now(),
       email: b,
@@ -130,7 +131,7 @@ class App extends Component {
         console.log(data);
         const newItem = data;
         const newArray = [data, ...this.state.sentBox];
-        this.setState({ sentBox: newArray, isLoading: false });
+        this.setState({ sentBox: newArray, isAdding: false });
       });
     /*const newMail = {
       id: Date.now(),
@@ -298,10 +299,14 @@ class App extends Component {
                       </div>
                     )}
                   />
-                  <Route
-                    path="/email/sent"
-                    render={props => <Sent sentBox={this.state.sentBox} />}
-                  />
+                  {this.state.isAdding ? (
+                    <div className="loadingText">傳送中，請稍候...</div>
+                  ) : (
+                    <Route
+                      path="/email/sent"
+                      render={props => <Sent sentBox={this.state.sentBox} />}
+                    />
+                  )}
                 </Switch>
               )}
             </div>

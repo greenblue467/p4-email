@@ -269,6 +269,7 @@
 .pop form div input {
   font-size: 1.1rem;
   width: 200px;
+  border: 1px solid #dddddd;
 }
 
 @media screen and (min-width: 768px) {
