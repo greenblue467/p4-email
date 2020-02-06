@@ -228,6 +228,7 @@ $colorT: rgb(21, 186, 245);
       input {
         font-size: 1.1rem;
         width: 200px;
+        border: 1px solid #dddddd;
 
         @include pad {
           width: 700px;
