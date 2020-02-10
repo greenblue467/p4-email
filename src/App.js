@@ -238,21 +238,16 @@ class App extends Component {
             change1={this.change1}
           />
         </div>
-        <Router>
+        <Router basename="/p4-email">
           <div className="two">
             <div className="div1">
-              <Link
-                to="/email/inbox"
-                className="inbox"
-                onClick={this.div1}
-                style={div1}
-              >
+              <Link to="/" className="inbox" onClick={this.div1} style={div1}>
                 收件匣 ({this.unreadLength()})
               </Link>
             </div>
             <div className="div2">
               <Link
-                to="/email/sent"
+                to="/sent"
                 className="sent"
                 onClick={this.div2}
                 style={div2}
@@ -277,7 +272,8 @@ class App extends Component {
                 <Switch>
                   <Route path="/email" exact />
                   <Route
-                    path="/email/inbox"
+                    path="/"
+                    exact
                     render={props => (
                       <div>
                         <Inbox
@@ -303,7 +299,7 @@ class App extends Component {
                     <div className="loadingText">傳送中，請稍候...</div>
                   ) : (
                     <Route
-                      path="/email/sent"
+                      path="/sent"
                       render={props => <Sent sentBox={this.state.sentBox} />}
                     />
                   )}
