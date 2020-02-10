@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7187ec89dbad88074ab02435a419fd09",
+    "revision": "0c79ef038ed1e44fb6f6ea8b95fcd610",
     "url": "/p4-email/index.html"
   },
   {
-    "revision": "bbe09a2816e52fc2092a",
-    "url": "/p4-email/static/css/main.0aba28c4.chunk.css"
+    "revision": "10cc21368f5cccf9f0c2",
+    "url": "/p4-email/static/css/main.6bebc8c4.chunk.css"
   },
   {
     "revision": "1fa235e548056089f94c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/p4-email/static/js/2.03897f64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bbe09a2816e52fc2092a",
+    "revision": "10cc21368f5cccf9f0c2",
     "url": "/p4-email/static/js/main.39a5e769.chunk.js"
   },
   {
