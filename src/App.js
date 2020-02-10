@@ -13,7 +13,7 @@ class App extends Component {
     mail: [],
     isLoading: false,
     isReading: false,
-    url: "",
+    url: "http://localhost:3000/",
     article: "",
     pop: false,
     pop2: false,
@@ -60,10 +60,10 @@ class App extends Component {
       });
   }
   div1 = () => {
-    this.setState({ url: "http://localhost:3000/email/inbox" });
+    this.setState({ url: "http://localhost:3000/" });
   };
   div2 = () => {
-    this.setState({ url: "http://localhost:3000/email/sent" });
+    this.setState({ url: "http://localhost:3000/sent" });
   };
   read = () => {
     const indexOfLast = this.state.currentPage * this.state.numberPerPage;
@@ -194,24 +194,21 @@ class App extends Component {
     return length;
   };
   render() {
+    console.log(this.state.url);
     const div1 = {
       borderLeft:
-        this.state.url == "http://localhost:3000/email/inbox" &&
+        this.state.url == "http://localhost:3000/" &&
         "0.5rem solid  rgb(21, 186, 245)",
-      color:
-        this.state.url == "http://localhost:3000/email/inbox" &&
-        "rgb(21, 186, 245)",
-      fontWeight:
-        this.state.url == "http://localhost:3000/email/inbox" && "bold"
+      color: this.state.url == "http://localhost:3000/" && "rgb(21, 186, 245)",
+      fontWeight: this.state.url == "http://localhost:3000/" && "bold"
     };
     const div2 = {
       borderLeft:
-        this.state.url == "http://localhost:3000/email/sent" &&
+        this.state.url == "http://localhost:3000/sent" &&
         "0.5rem solid  rgb(21, 186, 245)",
       color:
-        this.state.url == "http://localhost:3000/email/sent" &&
-        "rgb(21, 186, 245)",
-      fontWeight: this.state.url == "http://localhost:3000/email/sent" && "bold"
+        this.state.url == "http://localhost:3000/sent" && "rgb(21, 186, 245)",
+      fontWeight: this.state.url == "http://localhost:3000/sent" && "bold"
     };
     const numberOfPages = Math.ceil(
       this.state.total / this.state.numberPerPage
