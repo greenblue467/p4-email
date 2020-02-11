@@ -7,6 +7,7 @@ const Nav = props => {
   const popAdd2 = {
     display: props.pop2 && "block"
   };
+
   return (
     <React.Fragment>
       <div className="shield" style={popAdd} onClick={props.close}></div>

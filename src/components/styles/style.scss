@@ -179,12 +179,14 @@ $colorT: rgb(21, 186, 245);
   border-radius: 0.5rem;
   padding: 1rem 2rem;
   box-sizing: border-box;
+
   @include pad {
     width: 800px;
     height: 600px;
     transform: translateX(-400px);
     padding: 2rem;
   }
+
   .btn {
     cursor: pointer;
     background-color: $colorT;
