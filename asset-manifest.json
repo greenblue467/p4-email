@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/p4-email/static/css/main.3896cf89.chunk.css",
-    "main.js": "/p4-email/static/js/main.5e726638.chunk.js",
-    "main.js.map": "/p4-email/static/js/main.5e726638.chunk.js.map",
+    "main.css": "/p4-email/static/css/main.4111cd7a.chunk.css",
+    "main.js": "/p4-email/static/js/main.76ef21a7.chunk.js",
+    "main.js.map": "/p4-email/static/js/main.76ef21a7.chunk.js.map",
     "runtime-main.js": "/p4-email/static/js/runtime-main.e3b9209a.js",
     "runtime-main.js.map": "/p4-email/static/js/runtime-main.e3b9209a.js.map",
-    "static/js/2.03897f64.chunk.js": "/p4-email/static/js/2.03897f64.chunk.js",
-    "static/js/2.03897f64.chunk.js.map": "/p4-email/static/js/2.03897f64.chunk.js.map",
+    "static/js/2.b9b81f98.chunk.js": "/p4-email/static/js/2.b9b81f98.chunk.js",
+    "static/js/2.b9b81f98.chunk.js.map": "/p4-email/static/js/2.b9b81f98.chunk.js.map",
     "index.html": "/p4-email/index.html",
-    "precache-manifest.e0ecfc5b62c423567ec6a5ea8c5087ba.js": "/p4-email/precache-manifest.e0ecfc5b62c423567ec6a5ea8c5087ba.js",
+    "precache-manifest.51ebc564b2cd657e9a9e68465e4e43ba.js": "/p4-email/precache-manifest.51ebc564b2cd657e9a9e68465e4e43ba.js",
     "service-worker.js": "/p4-email/service-worker.js",
-    "static/css/main.3896cf89.chunk.css.map": "/p4-email/static/css/main.3896cf89.chunk.css.map",
-    "static/js/2.03897f64.chunk.js.LICENSE.txt": "/p4-email/static/js/2.03897f64.chunk.js.LICENSE.txt"
+    "static/css/main.4111cd7a.chunk.css.map": "/p4-email/static/css/main.4111cd7a.chunk.css.map",
+    "static/js/2.b9b81f98.chunk.js.LICENSE.txt": "/p4-email/static/js/2.b9b81f98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e3b9209a.js",
-    "static/js/2.03897f64.chunk.js",
-    "static/css/main.3896cf89.chunk.css",
-    "static/js/main.5e726638.chunk.js"
+    "static/js/2.b9b81f98.chunk.js",
+    "static/css/main.4111cd7a.chunk.css",
+    "static/js/main.76ef21a7.chunk.js"
   ]
 }
