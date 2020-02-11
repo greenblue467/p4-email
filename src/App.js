@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Details from "./components/Details";
 import Pagination from "./components/Pagination";
 import style from "./components/styles/style.css";
+import $ from "jquery";
 
 class App extends Component {
   state = {
@@ -152,13 +153,25 @@ class App extends Component {
     this.setState({ pop2: false });
   };
   changePage = e => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
     this.setState({ currentPage: e });
   };
   prev = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
     const newPage = this.state.currentPage - 1;
     this.setState({ currentPage: newPage });
   };
   next = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
     const newPage = this.state.currentPage + 1;
     this.setState({ currentPage: newPage });
   };
