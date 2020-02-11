@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/p4-email/static/css/main.9fe4dcfb.chunk.css",
+    "main.css": "/p4-email/static/css/main.3896cf89.chunk.css",
     "main.js": "/p4-email/static/js/main.5e726638.chunk.js",
     "main.js.map": "/p4-email/static/js/main.5e726638.chunk.js.map",
     "runtime-main.js": "/p4-email/static/js/runtime-main.e3b9209a.js",
@@ -8,15 +8,15 @@
     "static/js/2.03897f64.chunk.js": "/p4-email/static/js/2.03897f64.chunk.js",
     "static/js/2.03897f64.chunk.js.map": "/p4-email/static/js/2.03897f64.chunk.js.map",
     "index.html": "/p4-email/index.html",
-    "precache-manifest.db94b210ddeabf216102aaead9d05cd5.js": "/p4-email/precache-manifest.db94b210ddeabf216102aaead9d05cd5.js",
+    "precache-manifest.e0ecfc5b62c423567ec6a5ea8c5087ba.js": "/p4-email/precache-manifest.e0ecfc5b62c423567ec6a5ea8c5087ba.js",
     "service-worker.js": "/p4-email/service-worker.js",
-    "static/css/main.9fe4dcfb.chunk.css.map": "/p4-email/static/css/main.9fe4dcfb.chunk.css.map",
+    "static/css/main.3896cf89.chunk.css.map": "/p4-email/static/css/main.3896cf89.chunk.css.map",
     "static/js/2.03897f64.chunk.js.LICENSE.txt": "/p4-email/static/js/2.03897f64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e3b9209a.js",
     "static/js/2.03897f64.chunk.js",
-    "static/css/main.9fe4dcfb.chunk.css",
+    "static/css/main.3896cf89.chunk.css",
     "static/js/main.5e726638.chunk.js"
   ]
 }
