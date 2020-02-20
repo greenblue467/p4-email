@@ -77,12 +77,12 @@ class App extends Component {
   };
   unreadLength = () => {
     const newArray = [...this.state.mail];
-    const newState = newArray.filter(x => x.unread == true);
+    const newState = newArray.filter(x => x.unread === true);
     return newState.length;
   };
   open = e => {
     const newArray = [...this.state.mail];
-    const index = newArray.findIndex(x => x.id == e);
+    const index = newArray.findIndex(x => x.id === e);
     newArray[index].unread = false;
     const newArticle = newArray[index].body;
     this.setState({
@@ -209,18 +209,18 @@ class App extends Component {
   render() {
     const div1 = {
       borderLeft:
-        this.state.url == "http://localhost:3000/" &&
+        this.state.url === "http://localhost:3000/" &&
         "0.5rem solid  rgb(21, 186, 245)",
-      color: this.state.url == "http://localhost:3000/" && "rgb(21, 186, 245)",
-      fontWeight: this.state.url == "http://localhost:3000/" && "bold"
+      color: this.state.url === "http://localhost:3000/" && "rgb(21, 186, 245)",
+      fontWeight: this.state.url === "http://localhost:3000/" && "bold"
     };
     const div2 = {
       borderLeft:
-        this.state.url == "http://localhost:3000/sent" &&
+        this.state.url === "http://localhost:3000/sent" &&
         "0.5rem solid  rgb(21, 186, 245)",
       color:
-        this.state.url == "http://localhost:3000/sent" && "rgb(21, 186, 245)",
-      fontWeight: this.state.url == "http://localhost:3000/sent" && "bold"
+        this.state.url === "http://localhost:3000/sent" && "rgb(21, 186, 245)",
+      fontWeight: this.state.url === "http://localhost:3000/sent" && "bold"
     };
     const numberOfPages = Math.ceil(
       this.state.total / this.state.numberPerPage
