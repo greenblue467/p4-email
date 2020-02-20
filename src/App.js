@@ -207,7 +207,6 @@ class App extends Component {
     return length;
   };
   render() {
-    console.log(this.state.url);
     const div1 = {
       borderLeft:
         this.state.url == "http://localhost:3000/" &&
